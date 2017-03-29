@@ -1,0 +1,8 @@
+package: github.com/akaspin/terraform-provider-generic
+import:
+- package: github.com/hashicorp/terraform
+  version: ^0.9.2
+  subpackages:
+  - helper/schema
+  - plugin
+  - terraform
